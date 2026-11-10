@@ -16,7 +16,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script>document.documentElement.classList.remove('no-js');</script>
+    <script>
+      document.documentElement.classList.remove('no-js');
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -41,6 +43,7 @@
 
       <nav id="primary-navigation" class="primary-nav" aria-label="Primary" data-nav>
         <a href="#about">About</a>
+        <a href="#services">Services</a>
         <a href="#work">Selected work</a>
         <a href="#process">Process</a>
         <a class="nav-contact" href="#contact">Let's work together <span aria-hidden="true">↗</span></a>
@@ -73,8 +76,8 @@
             <em>Rodriguez.</em>
           </h1>
           <p class="hero-intro reveal" data-reveal>
-            I translate considered Figma designs into polished WordPress experiences —
-            responsive, intuitive, and built to hold up beyond launch.
+            I turn thoughtful designs and existing sites into useful WordPress experiences —
+            responsive, editable, and built to help people find what matters.
           </p>
           <div class="hero-actions reveal" data-reveal>
             <a class="button button--primary" href="#work">View selected work <span aria-hidden="true">↓</span></a>
@@ -112,157 +115,161 @@
           </div>
         </div>
 
-        <div class="expertise-list" aria-label="Capabilities">
+        <div class="about-personal reveal" data-reveal>
+          <div class="portrait-slot" aria-label="Space reserved for Nathaniel's portrait">
+            <span class="portrait-slot__mark" aria-hidden="true">NR<span>.</span></span>
+            <span class="portrait-slot__caption">Portrait to add / Nathaniel Rodriguez</span>
+          </div>
+          <div class="about-personal__copy">
+            <p class="eyebrow">A little more personal</p>
+            <h3>Hi, I'm <em>Nathaniel.</em></h3>
+            <p>I work with businesses and agencies to bring thoughtful websites into the real world. A strong design matters to me, and so does what happens after handoff: whether a page is easy to edit, works well on a phone, and helps people find what they need.</p>
+            <p>My background spans website design, WordPress implementation, and SEO content. I bring those perspectives together to make practical decisions from the first layout to the final check.</p>
+            <a href="https://www.upwork.com/freelancers/rnathaniel" target="_blank" rel="noreferrer">See my Upwork profile <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div id="services" class="services-heading reveal" data-reveal>
+          <p class="eyebrow">Where I can help</p>
+          <h3>Clear problems.<br /><em>Considered solutions.</em></h3>
+          <p>From a new design to an existing site that needs care, I focus on what the website needs to do and make the implementation hold up.</p>
+        </div>
+
+        <div class="expertise-list" aria-label="Services">
           <article class="expertise-row reveal" data-reveal>
             <span class="expertise-no">01</span>
             <h3>Figma to WordPress</h3>
-            <p>Accurate, responsive builds that preserve the thinking behind the design.</p>
+            <p><span>When the design is ready</span>I translate it into a responsive Elementor Pro site with editable sections, reusable templates, and the details that make the original idea feel intact.</p>
           </article>
           <article class="expertise-row reveal" data-reveal>
             <span class="expertise-no">02</span>
-            <h3>Elementor Pro systems</h3>
-            <p>Reusable templates, global styles, and layouts clients can maintain with confidence.</p>
+            <h3>Site repair &amp; refinement</h3>
+            <p><span>When a site feels off</span>I investigate broken layouts, plugin conflicts, mobile issues, and inconsistent pages, then fix and test the areas that matter.</p>
           </article>
           <article class="expertise-row reveal" data-reveal>
             <span class="expertise-no">03</span>
-            <h3>Responsive refinement</h3>
-            <p>Purposeful behavior from widescreen to mobile, not a desktop layout squeezed smaller.</p>
+            <h3>Content &amp; SEO foundations</h3>
+            <p><span>When content needs direction</span>I shape landing pages and content templates, then implement practical on-page SEO, metadata, internal links, and performance basics.</p>
           </article>
           <article class="expertise-row reveal" data-reveal>
             <span class="expertise-no">04</span>
-            <h3>Technical SEO implementation</h3>
-            <p>Semantic structure, on-page foundations, performance hygiene, and clean handoff.</p>
+            <h3>Ongoing WordPress support</h3>
+            <p><span>When the work continues</span>I help maintain and improve existing sites through content updates, WooCommerce changes, bug fixes, and careful quality checks.</p>
           </article>
         </div>
       </section>
 
-      <section id="work" class="work section-pad" aria-labelledby="work-title">
+      <section id="work" class="work" aria-labelledby="work-title">
         <div class="work-heading reveal" data-reveal>
           <div class="section-index">
             <span>02</span>
             <p>Selected work</p>
           </div>
-          <h2 id="work-title">Built for the<br /><em>real world.</em></h2>
-          <p>Five recent WordPress engagements, from full Figma builds to focused content and SEO improvements.</p>
+          <h2 id="work-title">Selected <em>work.</em></h2>
+          <p>Five projects, each with a different problem to solve. Explore the reel, then open a case note to see how I approached the work.</p>
         </div>
 
-        <div class="project-list">
-          <article class="project project--feature reveal" data-reveal>
-            <a class="project-visual" href="https://ekenmar.com/" target="_blank" rel="noreferrer" aria-label="Visit Kenmar Corporation website">
+        <div
+          class="work-reel reveal"
+          data-work-reel
+          data-active-project="1"
+          data-reveal
+          role="region"
+          aria-roledescription="carousel"
+          aria-label="Selected project case studies"
+          tabindex="0"
+        >
+          <p class="sr-only" data-work-status aria-live="polite">Showing project 2 of 5: Genieum</p>
+
+          <div class="work-reel__stage">
+            <button class="work-peek work-peek--previous" type="button" data-work-previous aria-label="Show previous project, Kenmar Corporation">
               <img
                 src="assets/projects/kenmar.png"
+                alt=""
                 width="1440"
                 height="960"
-                alt="Kenmar Corporation website homepage showing its automotive business development positioning"
                 loading="lazy"
                 decoding="async"
+                data-work-previous-image
               />
-              <span class="project-visit">Visit live site <span aria-hidden="true">↗</span></span>
+              <span>Previous</span>
+            </button>
+
+            <a
+              class="work-frame"
+              href="https://genieum.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Visit Genieum website"
+              data-work-live
+            >
+              <img
+                src="assets/projects/genieum.png"
+                alt="Genieum website homepage presenting its trade credit platform"
+                width="1440"
+                height="960"
+                loading="lazy"
+                decoding="async"
+                data-work-image
+              />
+              <span class="work-frame__label" data-work-frame-label>02 / Genieum</span>
             </a>
-            <div class="project-info">
-              <p class="project-number">01 / 05</p>
-              <div>
-                <h3>Kenmar Corporation</h3>
-                <p>Elementor Pro implementation based on a client-provided Figma design.</p>
-              </div>
-              <p class="project-services">Figma to WordPress · Elementor Pro · Responsive development</p>
-              <button class="text-button" type="button" data-case-open="kenmar">View case note <span aria-hidden="true">＋</span></button>
-            </div>
-          </article>
 
-          <div class="project-pair">
-            <article class="project reveal" data-reveal>
-              <a class="project-visual project-visual--violet" href="https://genieum.com/" target="_blank" rel="noreferrer" aria-label="Visit Genieum website">
-                <img
-                  src="assets/projects/genieum.png"
-                  width="1440"
-                  height="960"
-                  alt="Genieum website homepage presenting its trade credit platform"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <span class="project-visit">Visit live site <span aria-hidden="true">↗</span></span>
-              </a>
-              <div class="project-info">
-                <p class="project-number">02 / 05</p>
+            <aside class="work-meta" aria-label="Active project details">
+              <p class="work-meta__count"><strong data-work-index>02</strong> / 05</p>
+              <h3 data-work-name>Genieum</h3>
+              <dl>
                 <div>
-                  <h3>Genieum</h3>
-                  <p>Figma-to-WordPress implementation for a trade credit platform.</p>
+                  <dt>Contribution</dt>
+                  <dd data-work-contribution>Front-end implementation</dd>
                 </div>
-                <p class="project-services">Figma to WordPress · Elementor Pro</p>
-                <button class="text-button" type="button" data-case-open="genieum">View case note <span aria-hidden="true">＋</span></button>
+                <div>
+                  <dt>Services</dt>
+                  <dd data-work-services>Figma to WordPress · Elementor Pro</dd>
+                </div>
+              </dl>
+              <p class="work-meta__note" data-work-note>A Figma-to-WordPress build for a platform introducing a modern approach to B2B trade credit.</p>
+              <div class="work-meta__actions">
+                <button class="button button--primary" type="button" data-case-open="genieum">Explore the approach <span aria-hidden="true">↗</span></button>
+                <a class="button button--ghost" href="https://genieum.com/" target="_blank" rel="noreferrer" data-work-live>Visit live</a>
               </div>
-            </article>
+            </aside>
 
-            <article class="project project--offset reveal" data-reveal>
-              <a class="project-visual project-visual--green" href="https://www.justbethebank.com/" target="_blank" rel="noreferrer" aria-label="Visit Just Be The Bank website">
-                <img
-                  src="assets/projects/just-be-the-bank.png"
-                  width="1440"
-                  height="960"
-                  alt="Just Be The Bank website homepage about private lending education"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <span class="project-visit">Visit live site <span aria-hidden="true">↗</span></span>
-              </a>
-              <div class="project-info">
-                <p class="project-number">03 / 05</p>
-                <div>
-                  <h3>Just Be The Bank</h3>
-                  <p>Collaborative Figma design work followed by the Elementor implementation.</p>
-                </div>
-                <p class="project-services">Collaborative design · Elementor · Responsive development</p>
-                <button class="text-button" type="button" data-case-open="jbtb">View case note <span aria-hidden="true">＋</span></button>
-              </div>
-            </article>
+            <button class="work-peek work-peek--next" type="button" data-work-next aria-label="Show next project, Just Be The Bank">
+              <img
+                src="assets/projects/just-be-the-bank.png"
+                alt=""
+                width="1440"
+                height="960"
+                loading="lazy"
+                decoding="async"
+                data-work-next-image
+              />
+              <span>Next</span>
+            </button>
           </div>
 
-          <article class="project project--wide reveal" data-reveal>
-            <a class="project-visual project-visual--red" href="https://parts-badger.com/" target="_blank" rel="noreferrer" aria-label="Visit PartsBadger website">
-              <img
-                src="assets/projects/parts-badger.png"
-                width="1440"
-                height="960"
-                alt="PartsBadger online CNC machine shop website homepage"
-                loading="lazy"
-                decoding="async"
-              />
-              <span class="project-visit">Visit live site <span aria-hidden="true">↗</span></span>
-            </a>
-            <div class="project-info">
-              <p class="project-number">04 / 05</p>
-              <div>
-                <h3>PartsBadger</h3>
-                <p>Redesigned the blog archive and individual article templates for clearer content discovery.</p>
-              </div>
-              <p class="project-services">UX refinement · Blog archive · Post templates</p>
-              <button class="text-button" type="button" data-case-open="parts">View case note <span aria-hidden="true">＋</span></button>
-            </div>
-          </article>
+          <div class="work-reel__controls">
+            <button class="work-direction work-direction--previous" type="button" data-work-previous>
+              <span>Previous project</span>
+              <strong data-work-previous-name>Kenmar Corporation</strong>
+            </button>
 
-          <article class="project project--editorial reveal" data-reveal>
-            <div class="project-editorial-copy">
-              <p class="project-number">05 / 05</p>
-              <h3>Camden<br /><em>Place.</em></h3>
-              <p>Elementor landing pages, responsive implementation, and on-page SEO enhancements for an established dental and implant centre.</p>
-              <p class="project-services">Landing pages · Responsive development · On-page SEO</p>
-              <div class="project-editorial-actions">
-                <a class="button button--dark" href="https://camdenplace.co.uk/" target="_blank" rel="noreferrer">Visit live site <span aria-hidden="true">↗</span></a>
-                <button class="text-button text-button--dark" type="button" data-case-open="camden">View case note <span aria-hidden="true">＋</span></button>
-              </div>
+            <div class="work-progress" aria-label="Choose a project">
+              <button type="button" data-work-go="0" aria-label="Show Kenmar Corporation">01</button>
+              <button class="is-active" type="button" data-work-go="1" aria-current="true" aria-label="Show Genieum">02</button>
+              <button type="button" data-work-go="2" aria-label="Show Just Be The Bank">03</button>
+              <button type="button" data-work-go="3" aria-label="Show PartsBadger">04</button>
+              <button type="button" data-work-go="4" aria-label="Show Camden Place">05</button>
             </div>
-            <a class="project-editorial-visual" href="https://camdenplace.co.uk/" target="_blank" rel="noreferrer" aria-label="Visit Camden Place website">
-              <img
-                src="assets/projects/camden-place.png"
-                width="1440"
-                height="960"
-                alt="Camden Place Dental and Implant Centre website homepage"
-                loading="lazy"
-                decoding="async"
-              />
-            </a>
-          </article>
+
+            <button class="work-direction work-direction--next" type="button" data-work-next>
+              <span>Next project</span>
+              <strong data-work-next-name>Just Be The Bank</strong>
+            </button>
+          </div>
+
+          <p class="work-reel__help">Use the controls, arrow keys, or swipe to explore the reel.</p>
         </div>
       </section>
 
@@ -272,37 +279,42 @@
             <span>03</span>
             <p>Process</p>
           </div>
-          <h2 id="process-title">A clear path from<br /><em>idea to launch.</em></h2>
+          <h2 id="process-title">How the work<br /><em>gets done.</em></h2>
+          <p class="process-intro__copy">A site should work as well behind the scenes as it looks on screen. Open a step to see what I pay attention to.</p>
         </div>
 
         <ol class="process-list">
           <li class="process-step reveal" data-reveal>
             <span class="process-number">01</span>
-            <div>
-              <h3>Discover &amp; understand</h3>
-              <p>Clarify the audience, goals, content, constraints, and what a successful build needs to do.</p>
-            </div>
+            <details name="process" open>
+              <summary>Understand the job <span aria-hidden="true">+</span></summary>
+              <p>I start with the audience, the goal of each page, the content, and the state of the existing site or design. This identifies what needs to change before I begin building.</p>
+              <small>Output / a focused scope and page priorities</small>
+            </details>
           </li>
           <li class="process-step reveal" data-reveal>
             <span class="process-number">02</span>
-            <div>
-              <h3>Design &amp; plan</h3>
-              <p>Map the page system, responsive behavior, reusable patterns, and the details that need protection in development.</p>
-            </div>
+            <details name="process">
+              <summary>Plan the system <span aria-hidden="true">+</span></summary>
+              <p>I map the content hierarchy, mobile behavior, templates, and reusable styles. For Figma projects, I identify the details that need special care when they move into WordPress.</p>
+              <small>Output / a build plan that stays editable</small>
+            </details>
           </li>
           <li class="process-step reveal" data-reveal>
             <span class="process-number">03</span>
-            <div>
-              <h3>Develop &amp; refine</h3>
-              <p>Build in WordPress and Elementor Pro, then iterate across browsers and real device widths.</p>
-            </div>
+            <details name="process">
+              <summary>Build and iterate <span aria-hidden="true">+</span></summary>
+              <p>I implement the pages in WordPress and Elementor Pro, work through responsive states, and refine spacing, interactions, content flow, and the small details people notice.</p>
+              <small>Output / a usable, responsive website</small>
+            </details>
           </li>
           <li class="process-step reveal" data-reveal>
             <span class="process-number">04</span>
-            <div>
-              <h3>Test &amp; launch</h3>
-              <p>Complete accessibility, performance, content, SEO, and interaction checks before a clean handoff.</p>
-            </div>
+            <details name="process">
+              <summary>Check and hand off <span aria-hidden="true">+</span></summary>
+              <p>I review the site across screen sizes, check links and interactions, and address content, accessibility, and SEO details before handoff. I make sure the next edit is manageable, too.</p>
+              <small>Output / a checked site ready to maintain</small>
+            </details>
           </li>
         </ol>
       </section>
@@ -316,16 +328,14 @@
             If you need a thoughtful WordPress build, a stronger responsive experience, or a focused site improvement, I'd like to hear about it.
           </p>
           <div class="contact-links reveal" data-reveal>
-            <span class="contact-placeholder" aria-label="Email address to be added">Email <small>details to add</small></span>
-            <span class="contact-placeholder" aria-label="LinkedIn profile to be added">LinkedIn <small>URL to add</small></span>
-            <a href="https://github.com/thanielll" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-            <span class="contact-placeholder" aria-label="Upwork profile to be added">Upwork <small>URL to add</small></span>
+            <a href="mailto:freelancer.rnathaniel@gmail.com">freelancer.rnathaniel@gmail.com <span aria-hidden="true">↗</span></a>
+            <a href="https://www.upwork.com/freelancers/rnathaniel" target="_blank" rel="noreferrer">Upwork profile <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         <footer class="site-footer">
           <p>© <span data-year></span> Nathaniel Rodriguez</p>
           <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
-          <p>Designed &amp; developed with intention.</p>
+          <a href="mailto:freelancer.rnathaniel@gmail.com">Email Nathaniel <span aria-hidden="true">↗</span></a>
         </footer>
       </section>
     </main>
@@ -335,7 +345,7 @@
       <p class="eyebrow">Case note / 01</p>
       <h2 id="kenmar-case-title">Kenmar Corporation</h2>
       <p class="dialog-lead">A faithful Elementor Pro implementation of a supplied Figma direction, translated into a responsive WordPress site.</p>
-      <dl><div><dt>Contribution</dt><dd>Figma-to-WordPress implementation</dd></div><div><dt>Platform</dt><dd>WordPress / Elementor Pro</dd></div><div><dt>Focus</dt><dd>Responsive behavior and design fidelity</dd></div></dl>
+      <dl><div><dt>The need</dt><dd>Turn a supplied Figma direction into a site that works across screens and remains manageable in WordPress.</dd></div><div><dt>My approach</dt><dd>Translate the design's visual hierarchy into Elementor Pro, then resolve how spacing and layout should behave at smaller widths.</dd></div><div><dt>Implementation</dt><dd>Responsive WordPress pages with attention to design fidelity and editable page structure.</dd></div></dl>
       <a class="button button--primary" href="https://ekenmar.com/" target="_blank" rel="noreferrer">Visit live website <span aria-hidden="true">↗</span></a>
     </dialog>
 
@@ -344,7 +354,7 @@
       <p class="eyebrow">Case note / 02</p>
       <h2 id="genieum-case-title">Genieum</h2>
       <p class="dialog-lead">A Figma-to-WordPress build for a platform introducing a modern approach to B2B trade credit.</p>
-      <dl><div><dt>Contribution</dt><dd>Front-end implementation</dd></div><div><dt>Platform</dt><dd>WordPress / Elementor Pro</dd></div><div><dt>Focus</dt><dd>Design translation and responsive layouts</dd></div></dl>
+      <dl><div><dt>The need</dt><dd>Bring the platform's Figma design into a clear, usable WordPress experience.</dd></div><div><dt>My approach</dt><dd>Build the front end in Elementor Pro while checking typography, spacing, and responsive layout against the design.</dd></div><div><dt>Implementation</dt><dd>An editable site that presents the trade credit story through a consistent page system.</dd></div></dl>
       <a class="button button--primary" href="https://genieum.com/" target="_blank" rel="noreferrer">Visit live website <span aria-hidden="true">↗</span></a>
     </dialog>
 
@@ -353,7 +363,7 @@
       <p class="eyebrow">Case note / 03</p>
       <h2 id="jbtb-case-title">Just Be The Bank</h2>
       <p class="dialog-lead">A collaborative engagement spanning the Figma design and its responsive Elementor implementation.</p>
-      <dl><div><dt>Contribution</dt><dd>Collaborative design and development</dd></div><div><dt>Platform</dt><dd>WordPress / Elementor</dd></div><div><dt>Focus</dt><dd>Editorial hierarchy and responsive implementation</dd></div></dl>
+      <dl><div><dt>The need</dt><dd>Shape an educational lending website from visual concept through working pages.</dd></div><div><dt>My approach</dt><dd>Collaborate on the Figma direction, then carry its hierarchy, pacing, and calls to action into Elementor.</dd></div><div><dt>Implementation</dt><dd>Responsive WordPress pages designed to make the message easy to follow.</dd></div></dl>
       <a class="button button--primary" href="https://www.justbethebank.com/" target="_blank" rel="noreferrer">Visit live website <span aria-hidden="true">↗</span></a>
     </dialog>
 
@@ -362,7 +372,7 @@
       <p class="eyebrow">Case note / 04</p>
       <h2 id="parts-case-title">PartsBadger</h2>
       <p class="dialog-lead">A focused redesign of the blog archive and article templates to improve the reading and discovery experience.</p>
-      <dl><div><dt>Contribution</dt><dd>Blog experience redesign</dd></div><div><dt>Platform</dt><dd>WordPress</dd></div><div><dt>Focus</dt><dd>Archive structure and post layouts</dd></div></dl>
+      <dl><div><dt>The need</dt><dd>Make the blog archive and individual articles easier to browse and read.</dd></div><div><dt>My approach</dt><dd>Rework the archive structure and post presentation around content discovery and a clearer reading flow.</dd></div><div><dt>Implementation</dt><dd>Updated WordPress blog and article templates, with a more consistent content experience.</dd></div></dl>
       <a class="button button--primary" href="https://parts-badger.com/" target="_blank" rel="noreferrer">Visit live website <span aria-hidden="true">↗</span></a>
     </dialog>
 
@@ -371,7 +381,7 @@
       <p class="eyebrow">Case note / 05</p>
       <h2 id="camden-case-title">Camden Place</h2>
       <p class="dialog-lead">Elementor landing pages shaped for a responsive experience, supported by practical on-page SEO enhancements.</p>
-      <dl><div><dt>Contribution</dt><dd>Landing page development</dd></div><div><dt>Platform</dt><dd>WordPress / Elementor</dd></div><div><dt>Focus</dt><dd>Responsive implementation and on-page SEO</dd></div></dl>
+      <dl><div><dt>The need</dt><dd>Create service landing pages for a dental practice that work clearly on desktop and mobile.</dd></div><div><dt>My approach</dt><dd>Build the pages in Elementor, refine their responsive layouts, and implement practical on-page SEO details.</dd></div><div><dt>Implementation</dt><dd>WordPress landing pages with consistent content structure and search-friendly foundations.</dd></div></dl>
       <a class="button button--primary" href="https://camdenplace.co.uk/" target="_blank" rel="noreferrer">Visit live website <span aria-hidden="true">↗</span></a>
     </dialog>
 

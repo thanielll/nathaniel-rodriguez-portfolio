@@ -6,8 +6,10 @@ A lightweight, responsive portfolio for Nathaniel Rodriguez, a WordPress website
 
 - Editorial dark visual system with burnt-orange accents
 - Original CSS-built atmospheric hero artwork
-- Five authentic project previews with live website links
-- Accessible case-note dialogs, mobile navigation, and keyboard focus states
+- An interactive five-project filmstrip with live website links and scannable case notes
+- Problem-led services and a four-step implementation walkthrough
+- A personal introduction with a reserved portrait area
+- Accessible case-note dialogs, mobile navigation, keyboard controls, and swipe navigation
 - Scroll reveals and restrained pointer parallax with reduced-motion support
 - Static architecture designed for fast GitHub Pages hosting
 
@@ -36,15 +38,9 @@ Every push to `main` runs the workflow in `.github/workflows/pages.yml`. The wor
 
 In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions** if it is not selected automatically.
 
-## Content still to configure
+## Add Nathaniel's portrait
 
-The contact section deliberately leaves these details unfilled until the correct information is provided:
-
-- Professional email address
-- LinkedIn profile URL
-- Upwork profile URL
-
-The GitHub link points to Nathaniel's authenticated profile, `thanielll`.
+The portrait space is in the About section, away from the hero. Once a photo is available, add it to `assets/` and replace the `portrait-slot__mark` element in `index.html` with an image. Keep a descriptive `alt` attribute and leave the caption if desired. The email and Upwork links are already configured.
 
 ## Project sources
 

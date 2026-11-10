@@ -8,3 +8,4 @@ dist/
 coverage/
 .chrome-qa/
 mobile-preview.png
+.qa/
