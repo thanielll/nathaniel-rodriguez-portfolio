@@ -138,9 +138,13 @@ if (workReel) {
   const nextName = workReel.querySelector('[data-work-next-name]');
   const progressButtons = [...workReel.querySelectorAll('[data-work-go]')];
   const liveLinks = [...workReel.querySelectorAll('[data-work-live]')];
+  const scrollNudgeViewport = window.matchMedia('(min-width: 761px)');
   let activeProject = Number(workReel.dataset.activeProject || 0);
   let transitionTimer;
   let touchStartX = 0;
+  let previousScrollY = window.scrollY;
+  let scrollFrame;
+  let scrollSettleTimer;
 
   workProjects.forEach((project) => {
     const preload = new Image();
@@ -167,7 +171,7 @@ if (workReel) {
     frameLabel.textContent = `${projectNumber} / ${project.name}`;
     status.textContent = `Showing project ${activeProject + 1} of ${workProjects.length}: ${project.name}`;
     caseButton.dataset.caseOpen = project.caseId;
-    caseButton.setAttribute('aria-label', `Open the ${project.name} case note`);
+    caseButton.setAttribute('aria-label', `Read the ${project.name} case study`);
 
     liveLinks.forEach((link) => {
       link.href = project.url;
@@ -243,6 +247,30 @@ if (workReel) {
     if (Math.abs(distance) < 48) return;
     goToProject(activeProject + (distance < 0 ? 1 : -1));
   }, { passive: true });
+
+  const resetScrollNudge = () => workReel.style.removeProperty('--scroll-shift');
+
+  window.addEventListener('scroll', () => {
+    const movement = window.scrollY - previousScrollY;
+    previousScrollY = window.scrollY;
+
+    if (reduceMotion.matches || !scrollNudgeViewport.matches) {
+      resetScrollNudge();
+      return;
+    }
+
+    const bounds = workReel.getBoundingClientRect();
+    if (Math.abs(movement) < 2 || bounds.bottom <= 0 || bounds.top >= window.innerHeight) return;
+
+    window.cancelAnimationFrame(scrollFrame);
+    scrollFrame = window.requestAnimationFrame(() => {
+      workReel.style.setProperty('--scroll-shift', movement > 0 ? '-10px' : '10px');
+    });
+    window.clearTimeout(scrollSettleTimer);
+    scrollSettleTimer = window.setTimeout(resetScrollNudge, 320);
+  }, { passive: true });
+
+  window.addEventListener('resize', resetScrollNudge, { passive: true });
 
   renderProject(activeProject);
 }

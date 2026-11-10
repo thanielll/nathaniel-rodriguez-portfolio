@@ -166,7 +166,7 @@
             <p>Selected work</p>
           </div>
           <h2 id="work-title">Selected <em>work.</em></h2>
-          <p>Five projects, each with a different problem to solve. Explore the reel, then open a case note to see how I approached the work.</p>
+          <p>Five projects, each with a different problem to solve. Browse the reel, then see the approach behind each build.</p>
         </div>
 
         <div
@@ -216,22 +216,28 @@
             </a>
 
             <aside class="work-meta" aria-label="Active project details">
-              <p class="work-meta__count"><strong data-work-index>02</strong> / 05</p>
+              <div class="work-meta__top">
+                <p class="work-meta__count"><strong data-work-index>02</strong> / 05</p>
+                <div class="work-meta__nav" aria-label="Project navigation">
+                  <button type="button" data-work-previous aria-label="Show previous project, Kenmar Corporation"><span aria-hidden="true">←</span></button>
+                  <button type="button" data-work-next aria-label="Show next project, Just Be The Bank"><span aria-hidden="true">→</span></button>
+                </div>
+              </div>
               <h3 data-work-name>Genieum</h3>
               <dl>
                 <div>
-                  <dt>Contribution</dt>
+                  <dt>My role</dt>
                   <dd data-work-contribution>Front-end implementation</dd>
                 </div>
                 <div>
-                  <dt>Services</dt>
+                  <dt>Focus</dt>
                   <dd data-work-services>Figma to WordPress · Elementor Pro</dd>
                 </div>
               </dl>
               <p class="work-meta__note" data-work-note>A Figma-to-WordPress build for a platform introducing a modern approach to B2B trade credit.</p>
               <div class="work-meta__actions">
-                <button class="button button--primary" type="button" data-case-open="genieum">Explore the approach <span aria-hidden="true">↗</span></button>
-                <a class="button button--ghost" href="https://genieum.com/" target="_blank" rel="noreferrer" data-work-live>Visit live</a>
+                <button class="button button--primary" type="button" data-case-open="genieum">Read case study <span aria-hidden="true">↗</span></button>
+                <a class="button button--ghost" href="https://genieum.com/" target="_blank" rel="noreferrer" data-work-live>View live site</a>
               </div>
             </aside>
 
@@ -251,7 +257,7 @@
 
           <div class="work-reel__controls">
             <button class="work-direction work-direction--previous" type="button" data-work-previous>
-              <span>Previous project</span>
+              <span>← Previous project</span>
               <strong data-work-previous-name>Kenmar Corporation</strong>
             </button>
 
@@ -264,12 +270,11 @@
             </div>
 
             <button class="work-direction work-direction--next" type="button" data-work-next>
-              <span>Next project</span>
+              <span>Next project →</span>
               <strong data-work-next-name>Just Be The Bank</strong>
             </button>
           </div>
 
-          <p class="work-reel__help">Use the controls, arrow keys, or swipe to explore the reel.</p>
         </div>
       </section>
 
@@ -341,8 +346,8 @@
     </main>
 
     <dialog class="case-dialog" data-case="kenmar" aria-labelledby="kenmar-case-title">
-      <button class="dialog-close" type="button" data-case-close aria-label="Close case note">×</button>
-      <p class="eyebrow">Case note / 01</p>
+      <button class="dialog-close" type="button" data-case-close aria-label="Close case study">×</button>
+      <p class="eyebrow">Case study / 01</p>
       <h2 id="kenmar-case-title">Kenmar Corporation</h2>
       <p class="dialog-lead">A faithful Elementor Pro implementation of a supplied Figma direction, translated into a responsive WordPress site.</p>
       <dl><div><dt>The need</dt><dd>Turn a supplied Figma direction into a site that works across screens and remains manageable in WordPress.</dd></div><div><dt>My approach</dt><dd>Translate the design's visual hierarchy into Elementor Pro, then resolve how spacing and layout should behave at smaller widths.</dd></div><div><dt>Implementation</dt><dd>Responsive WordPress pages with attention to design fidelity and editable page structure.</dd></div></dl>
@@ -350,8 +355,8 @@
     </dialog>
 
     <dialog class="case-dialog" data-case="genieum" aria-labelledby="genieum-case-title">
-      <button class="dialog-close" type="button" data-case-close aria-label="Close case note">×</button>
-      <p class="eyebrow">Case note / 02</p>
+      <button class="dialog-close" type="button" data-case-close aria-label="Close case study">×</button>
+      <p class="eyebrow">Case study / 02</p>
       <h2 id="genieum-case-title">Genieum</h2>
       <p class="dialog-lead">A Figma-to-WordPress build for a platform introducing a modern approach to B2B trade credit.</p>
       <dl><div><dt>The need</dt><dd>Bring the platform's Figma design into a clear, usable WordPress experience.</dd></div><div><dt>My approach</dt><dd>Build the front end in Elementor Pro while checking typography, spacing, and responsive layout against the design.</dd></div><div><dt>Implementation</dt><dd>An editable site that presents the trade credit story through a consistent page system.</dd></div></dl>
@@ -359,8 +364,8 @@
     </dialog>
 
     <dialog class="case-dialog" data-case="jbtb" aria-labelledby="jbtb-case-title">
-      <button class="dialog-close" type="button" data-case-close aria-label="Close case note">×</button>
-      <p class="eyebrow">Case note / 03</p>
+      <button class="dialog-close" type="button" data-case-close aria-label="Close case study">×</button>
+      <p class="eyebrow">Case study / 03</p>
       <h2 id="jbtb-case-title">Just Be The Bank</h2>
       <p class="dialog-lead">A collaborative engagement spanning the Figma design and its responsive Elementor implementation.</p>
       <dl><div><dt>The need</dt><dd>Shape an educational lending website from visual concept through working pages.</dd></div><div><dt>My approach</dt><dd>Collaborate on the Figma direction, then carry its hierarchy, pacing, and calls to action into Elementor.</dd></div><div><dt>Implementation</dt><dd>Responsive WordPress pages designed to make the message easy to follow.</dd></div></dl>
@@ -368,8 +373,8 @@
     </dialog>
 
     <dialog class="case-dialog" data-case="parts" aria-labelledby="parts-case-title">
-      <button class="dialog-close" type="button" data-case-close aria-label="Close case note">×</button>
-      <p class="eyebrow">Case note / 04</p>
+      <button class="dialog-close" type="button" data-case-close aria-label="Close case study">×</button>
+      <p class="eyebrow">Case study / 04</p>
       <h2 id="parts-case-title">PartsBadger</h2>
       <p class="dialog-lead">A focused redesign of the blog archive and article templates to improve the reading and discovery experience.</p>
       <dl><div><dt>The need</dt><dd>Make the blog archive and individual articles easier to browse and read.</dd></div><div><dt>My approach</dt><dd>Rework the archive structure and post presentation around content discovery and a clearer reading flow.</dd></div><div><dt>Implementation</dt><dd>Updated WordPress blog and article templates, with a more consistent content experience.</dd></div></dl>
@@ -377,8 +382,8 @@
     </dialog>
 
     <dialog class="case-dialog" data-case="camden" aria-labelledby="camden-case-title">
-      <button class="dialog-close" type="button" data-case-close aria-label="Close case note">×</button>
-      <p class="eyebrow">Case note / 05</p>
+      <button class="dialog-close" type="button" data-case-close aria-label="Close case study">×</button>
+      <p class="eyebrow">Case study / 05</p>
       <h2 id="camden-case-title">Camden Place</h2>
       <p class="dialog-lead">Elementor landing pages shaped for a responsive experience, supported by practical on-page SEO enhancements.</p>
       <dl><div><dt>The need</dt><dd>Create service landing pages for a dental practice that work clearly on desktop and mobile.</dd></div><div><dt>My approach</dt><dd>Build the pages in Elementor, refine their responsive layouts, and implement practical on-page SEO details.</dd></div><div><dt>Implementation</dt><dd>WordPress landing pages with consistent content structure and search-friendly foundations.</dd></div></dl>

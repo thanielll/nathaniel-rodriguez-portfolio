@@ -4,9 +4,9 @@ A lightweight, responsive portfolio for Nathaniel Rodriguez, a WordPress website
 
 ## Highlights
 
-- Editorial dark visual system with burnt-orange accents
+- Editorial dark visual system with a crimson-red accent
 - Original CSS-built atmospheric hero artwork
-- An interactive five-project filmstrip with live website links and scannable case notes
+- A compact five-project filmstrip with visible arrows, a subtle scroll nudge, live links, and scannable case studies
 - Problem-led services and a four-step implementation walkthrough
 - A personal introduction with a reserved portrait area
 - Accessible case-note dialogs, mobile navigation, keyboard controls, and swipe navigation
