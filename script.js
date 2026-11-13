@@ -67,58 +67,7 @@ if (!reduceMotion.matches && parallaxObject && hero && window.matchMedia('(point
   });
 }
 
-const workProjects = [
-  {
-    name: 'Kenmar Corporation',
-    caseId: 'kenmar',
-    url: 'https://ekenmar.com/',
-    image: 'assets/projects/kenmar.png',
-    alt: 'Kenmar Corporation website homepage showing its automotive business development positioning',
-    contribution: 'Figma-to-WordPress implementation',
-    services: 'Elementor Pro · Responsive development',
-    note: 'A faithful Elementor Pro implementation of a supplied Figma direction, translated into a responsive WordPress site.',
-  },
-  {
-    name: 'Genieum',
-    caseId: 'genieum',
-    url: 'https://genieum.com/',
-    image: 'assets/projects/genieum.png',
-    alt: 'Genieum website homepage presenting its trade credit platform',
-    contribution: 'Front-end implementation',
-    services: 'Figma to WordPress · Elementor Pro',
-    note: 'A Figma-to-WordPress build for a platform introducing a modern approach to B2B trade credit.',
-  },
-  {
-    name: 'Just Be The Bank',
-    caseId: 'jbtb',
-    url: 'https://www.justbethebank.com/',
-    image: 'assets/projects/just-be-the-bank.png',
-    alt: 'Just Be The Bank website homepage about private lending education',
-    contribution: 'Collaborative design and development',
-    services: 'Figma · Elementor · Responsive development',
-    note: 'A collaborative engagement spanning the Figma design and its responsive Elementor implementation.',
-  },
-  {
-    name: 'PartsBadger',
-    caseId: 'parts',
-    url: 'https://parts-badger.com/',
-    image: 'assets/projects/parts-badger.png',
-    alt: 'PartsBadger online CNC machine shop website homepage',
-    contribution: 'Blog experience redesign',
-    services: 'UX refinement · Blog archive · Post templates',
-    note: 'A focused redesign of the blog archive and article templates to improve the reading and discovery experience.',
-  },
-  {
-    name: 'Camden Place',
-    caseId: 'camden',
-    url: 'https://camdenplace.co.uk/',
-    image: 'assets/projects/camden-place.png',
-    alt: 'Camden Place Dental and Implant Centre website homepage',
-    contribution: 'Landing page development',
-    services: 'Elementor · Responsive development · On-page SEO',
-    note: 'Landing pages, responsive implementation, and on-page SEO enhancements for an established dental and implant centre.',
-  },
-];
+const workProjects = window.portfolioProjects || [];
 
 const workReel = document.querySelector('[data-work-reel]');
 
@@ -131,17 +80,19 @@ if (workReel) {
   const note = workReel.querySelector('[data-work-note]');
   const status = workReel.querySelector('[data-work-status]');
   const frameLabel = workReel.querySelector('[data-work-frame-label]');
-  const caseButton = workReel.querySelector('[data-case-open]');
+  const caseLinks = [...workReel.querySelectorAll('[data-case-link]')];
   const previousImage = workReel.querySelector('[data-work-previous-image]');
   const nextImage = workReel.querySelector('[data-work-next-image]');
   const previousName = workReel.querySelector('[data-work-previous-name]');
   const nextName = workReel.querySelector('[data-work-next-name]');
   const progressButtons = [...workReel.querySelectorAll('[data-work-go]')];
   const liveLinks = [...workReel.querySelectorAll('[data-work-live]')];
-  const scrollNudgeViewport = window.matchMedia('(min-width: 761px)');
   let activeProject = Number(workReel.dataset.activeProject || 0);
   let transitionTimer;
-  let touchStartX = 0;
+  let dragStartX = 0;
+  let dragPointerId = null;
+  let dragged = false;
+  let suppressCaseClick = false;
   let previousScrollY = window.scrollY;
   let scrollFrame;
   let scrollSettleTimer;
@@ -163,15 +114,18 @@ if (workReel) {
     workReel.dataset.activeProject = String(activeProject);
     image.src = project.image;
     image.alt = project.alt;
+    image.draggable = false;
     name.textContent = project.name;
     index.textContent = projectNumber;
-    contribution.textContent = project.contribution;
-    services.textContent = project.services;
-    note.textContent = project.note;
+    contribution.textContent = project.role;
+    services.textContent = project.services.join(' · ');
+    note.textContent = project.summary;
     frameLabel.textContent = `${projectNumber} / ${project.name}`;
     status.textContent = `Showing project ${activeProject + 1} of ${workProjects.length}: ${project.name}`;
-    caseButton.dataset.caseOpen = project.caseId;
-    caseButton.setAttribute('aria-label', `Read the ${project.name} case study`);
+    caseLinks.forEach((link) => {
+      link.href = `case-studies/${project.id}/`;
+      link.setAttribute('aria-label', `Read the ${project.name} case study`);
+    });
 
     liveLinks.forEach((link) => {
       link.href = project.url;
@@ -238,15 +192,48 @@ if (workReel) {
     }
   });
 
-  workReel.addEventListener('touchstart', (event) => {
-    touchStartX = event.changedTouches[0].clientX;
-  }, { passive: true });
+  const mainFrame = workReel.querySelector('.work-frame');
+  if (mainFrame) mainFrame.draggable = false;
+  mainFrame?.addEventListener('dragstart', (event) => event.preventDefault());
+  mainFrame?.addEventListener('pointerdown', (event) => {
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
+    dragPointerId = event.pointerId;
+    dragStartX = event.clientX;
+    dragged = false;
+    mainFrame.setPointerCapture?.(dragPointerId);
+    workReel.classList.add('is-dragging');
+  });
 
-  workReel.addEventListener('touchend', (event) => {
-    const distance = event.changedTouches[0].clientX - touchStartX;
-    if (Math.abs(distance) < 48) return;
+  mainFrame?.addEventListener('pointermove', (event) => {
+    if (event.pointerId !== dragPointerId) return;
+    const offset = Math.max(-18, Math.min(18, (event.clientX - dragStartX) * 0.12));
+    image.style.setProperty('--drag-offset', `${offset}px`);
+  });
+
+  mainFrame?.addEventListener('pointerup', (event) => {
+    if (event.pointerId !== dragPointerId) return;
+    const distance = event.clientX - dragStartX;
+    dragged = Math.abs(distance) >= 42;
+    dragPointerId = null;
+    workReel.classList.remove('is-dragging');
+    image.style.removeProperty('--drag-offset');
+    if (!dragged) return;
+    suppressCaseClick = true;
     goToProject(activeProject + (distance < 0 ? 1 : -1));
-  }, { passive: true });
+    window.setTimeout(() => { suppressCaseClick = false; }, 0);
+  });
+
+  mainFrame?.addEventListener('pointercancel', () => {
+    dragPointerId = null;
+    workReel.classList.remove('is-dragging');
+    image.style.removeProperty('--drag-offset');
+  });
+
+  mainFrame?.addEventListener('click', (event) => {
+    if (!suppressCaseClick) return;
+    event.preventDefault();
+    event.stopPropagation();
+  });
 
   const resetScrollNudge = () => workReel.style.removeProperty('--scroll-shift');
 
@@ -254,7 +241,7 @@ if (workReel) {
     const movement = window.scrollY - previousScrollY;
     previousScrollY = window.scrollY;
 
-    if (reduceMotion.matches || !scrollNudgeViewport.matches) {
+    if (reduceMotion.matches) {
       resetScrollNudge();
       return;
     }
@@ -274,26 +261,6 @@ if (workReel) {
 
   renderProject(activeProject);
 }
-
-document.querySelectorAll('[data-case-open]').forEach((button) => {
-  button.addEventListener('click', () => {
-    const dialog = document.querySelector(`[data-case="${button.dataset.caseOpen}"]`);
-    dialog?.showModal();
-  });
-});
-
-document.querySelectorAll('.case-dialog').forEach((dialog) => {
-  dialog.querySelector('[data-case-close]')?.addEventListener('click', () => dialog.close());
-  dialog.addEventListener('click', (event) => {
-    const bounds = dialog.getBoundingClientRect();
-    const outside =
-      event.clientX < bounds.left ||
-      event.clientX > bounds.right ||
-      event.clientY < bounds.top ||
-      event.clientY > bounds.bottom;
-    if (outside) dialog.close();
-  });
-});
 
 document.querySelectorAll('[data-year]').forEach((item) => {
   item.textContent = new Date().getFullYear();

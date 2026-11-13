@@ -1,0 +1,13 @@
+{
+  "name": "nathaniel-rodriguez-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static portfolio with a Playwright project screenshot capture utility",
+  "scripts": {
+    "build:case-studies": "node scripts/build-case-studies.cjs",
+    "capture:projects": "node scripts/capture-project-screenshots.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.57.0"
+  }
+}

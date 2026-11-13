@@ -1,23 +1,22 @@
-# Design QA — Editorial Filmstrip
+# Design QA — Interactive Project Explorer
 
-Result: **passed**
+Result: **passed locally**
 
-Reference: the user's selected Option 2 mock, `C:\Users\Joey\.codex\generated_images\01a1c686-4291-7ab1-80cd-54bbb8f98359\exec-3719aaa5-bf0d-41eb-8aa9-d8857bf5a38f.png`.
+## Visual review
 
-## Visual comparison
+- The home reel keeps the near-black layout, crimson accent, oversized serif heading, neighboring project peeks, metadata rail, and visible previous/next controls.
+- The reel stage is shorter than its first version and the homepage screenshot opens the active case study. The live client website remains a separate link.
+- Dedicated case study pages reuse the portfolio typography, dark surfaces, red labels, and restrained motion. The project image stays the main visual; no portrait was added to the hero.
+- At 390 × 844, the case study document fits the viewport width. The mobile project capture remains at its recorded 390px source width and can be enlarged and panned inside the dialog.
 
-Reviewed the local site in Chrome at a 1900px desktop viewport, 900px and 768px tablet viewports, and a 390 × 844px phone viewport. The work section retains the mock's oversized serif heading, neighboring project peeks, featured screenshot, dark metadata rail, and progress markers. The reel is now capped at 1440px wide and 480px tall on desktop, bringing the project, visible arrow controls, and progress into one view. The accent is crimson red. At phone width, the screenshot, details, paired actions, and progress stack in reading order.
+## Functional review
 
-The first version of the filmstrip was too tall and pushed navigation out of view. The revision fixes the stage height, caps its overall width, moves arrow buttons beside the project count, and reduces the space after the reel. The screenshot remains aligned to its left edge to preserve the project's logo. The hero remains portrait-free; the portrait space is in About.
+- Playwright opened all five direct case study URLs. Each page displayed its matching title, project image, overview, and device explorer.
+- All 20 project/device sets captured successfully. The manifest contains 227 genuine screenshot segments. Every segment’s recorded pixel dimensions match its requested viewport: 1440, 1280, 834, or 390 pixels wide.
+- The device picker switched from desktop to tablet. The enlarged view opened with the selected project’s screenshot segments.
+- The homepage reel advanced with ArrowRight and with a mouse drag. The touch path uses the same pointer handler; arrow buttons and progress controls remain available.
+- All five case study pages measured `scrollWidth === innerWidth` at 390px in the local browser pass. No page errors were reported.
+- Reduced-motion preferences are respected by the reel, case page reveals, screenshot transitions, and existing homepage animations.
+- Footer contact links use `freelancer.rnathaniel@gmail.com`; the Upwork link remains and no social GitHub link was added.
 
-## Functional checks
-
-- Clicking the visible Next arrow updated the image, title, contribution, services, live links, adjacent project names, and current progress state.
-- Opening a case study showed the need, approach, and implementation for the active project; the close control worked.
-- The process disclosure opened the selected step and closed the prior step.
-- Scrolling down while the reel was visible set the horizontal nudge to `-10px`; the code sets the opposite direction on upward scroll and returns to rest after scrolling stops.
-- At 390px, there was no horizontal overflow and the featured image loaded. At both 900px and 768px, the metadata panel fit within the fixed stage height; browser error logs were empty.
-- Both email links use `freelancer.rnathaniel@gmail.com`; the Upwork links point to Nathaniel's public profile; no GitHub links appear in the page.
-- Reduced-motion preferences are honored by the reel transition, scroll nudge, reveal effects, and parallax.
-
-Project descriptions intentionally avoid unverified conversion or performance results.
+Project copy uses the supplied project descriptions and implementation notes. No outcome metrics, testimonials, or other unverified results were added.

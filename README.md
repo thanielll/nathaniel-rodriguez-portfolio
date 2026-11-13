@@ -6,10 +6,11 @@ A lightweight, responsive portfolio for Nathaniel Rodriguez, a WordPress website
 
 - Editorial dark visual system with a crimson-red accent
 - Original CSS-built atmospheric hero artwork
-- A compact five-project filmstrip with visible arrows, a subtle scroll nudge, live links, and scannable case studies
+- A keyboard, touch, and drag friendly five-project reel with visible arrows, a subtle scroll nudge, and dedicated case study pages
+- Responsive case study pages with genuine viewport captures of the live project websites
 - Problem-led services and a four-step implementation walkthrough
 - A personal introduction with a reserved portrait area
-- Accessible case-note dialogs, mobile navigation, keyboard controls, and swipe navigation
+- Accessible device controls, scrollable screenshot previews, mobile navigation, keyboard controls, and swipe navigation
 - Scroll reveals and restrained pointer parallax with reduced-motion support
 - Static architecture designed for fast GitHub Pages hosting
 
@@ -17,7 +18,8 @@ A lightweight, responsive portfolio for Nathaniel Rodriguez, a WordPress website
 
 - Semantic HTML5
 - Modern CSS with responsive layouts and custom properties
-- Vanilla JavaScript with no runtime dependencies
+- Vanilla JavaScript in the published site, with no runtime dependencies
+- Playwright as a development-only tool for capturing project screenshots
 - GitHub Actions for automatic GitHub Pages deployment
 
 ## Run locally
@@ -31,6 +33,26 @@ python -m http.server 4173
 ```
 
 Then open `http://localhost:4173`.
+
+## Case studies and project captures
+
+Project details are maintained in `assets/js/projects-data.js`. After changing the project list or case study template, rebuild the static project routes:
+
+```bash
+npm run build:case-studies
+```
+
+Each case study is published at a shareable path under `case-studies/` and works with GitHub Pages. The screenshot viewer uses local, segmented captures at 1440px, 1280px, 834px, and 390px widths; each segment is a genuine Playwright screenshot taken at that viewport and the preview scrolls through them in order.
+
+To refresh captures for client sites that permit access, install the development dependency and run:
+
+```bash
+npm install
+npx playwright install chromium
+npm run capture:projects
+```
+
+The capture script is separate from the production frontend. It records blocked or missing viewports in `assets/project-explorer/manifest.json`; the case study disables those device choices instead of showing replacement artwork. A single project can be recaptured with `npm run capture:projects -- --project genieum`.
 
 ## Deployment
 

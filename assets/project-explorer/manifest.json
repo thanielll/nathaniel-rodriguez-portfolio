@@ -1,0 +1,2169 @@
+{
+  "generatedAt": "2026-11-13T18:04:56.844Z",
+  "method": "Sequential Playwright viewport screenshots with a small overlap to remove repeated sticky headers. Every segment preserves the exact CSS viewport dimensions.",
+  "note": "Captures are genuine screenshots from the listed live websites. Unavailable views contain no substitute images.",
+  "devices": [
+    {
+      "id": "desktop",
+      "label": "Desktop",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "id": "laptop",
+      "label": "Laptop",
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "width": 834,
+      "height": 1112
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "projects": [
+    {
+      "project": "kenmar",
+      "device": "desktop",
+      "label": "Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "pageTitle": "Kenmar Corporation | Automotive Business Development",
+      "pageHeight": 8557,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/kenmar/desktop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1440,
+          "height": 960,
+          "bytes": 229039
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/02.jpg",
+          "scrollY": 840,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 137182
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/03.jpg",
+          "scrollY": 1680,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 182996
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/04.jpg",
+          "scrollY": 2520,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 147527
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/05.jpg",
+          "scrollY": 3360,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 152651
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/06.jpg",
+          "scrollY": 4200,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 101452
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/07.jpg",
+          "scrollY": 5040,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 150067
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/08.jpg",
+          "scrollY": 5880,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 133651
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/09.jpg",
+          "scrollY": 6720,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 108651
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/10.jpg",
+          "scrollY": 7560,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 119400
+        },
+        {
+          "path": "assets/project-explorer/kenmar/desktop/11.jpg",
+          "scrollY": 7597,
+          "cropTop": 923,
+          "width": 1440,
+          "height": 960,
+          "bytes": 118014
+        }
+      ],
+      "bytes": 1580630,
+      "capturedAt": "2026-11-13T18:00:42.076Z"
+    },
+    {
+      "project": "kenmar",
+      "device": "laptop",
+      "label": "Laptop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "pageTitle": "Kenmar Corporation | Automotive Business Development",
+      "pageHeight": 8488,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/kenmar/laptop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1280,
+          "height": 900,
+          "bytes": 207944
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/02.jpg",
+          "scrollY": 780,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 117940
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/03.jpg",
+          "scrollY": 1560,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 175448
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/04.jpg",
+          "scrollY": 2340,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 133406
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/05.jpg",
+          "scrollY": 3120,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 132744
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/06.jpg",
+          "scrollY": 3900,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 92602
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/07.jpg",
+          "scrollY": 4680,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 105682
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/08.jpg",
+          "scrollY": 5460,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 159895
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/09.jpg",
+          "scrollY": 6240,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 110154
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/10.jpg",
+          "scrollY": 7020,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 114190
+        },
+        {
+          "path": "assets/project-explorer/kenmar/laptop/11.jpg",
+          "scrollY": 7588,
+          "cropTop": 332,
+          "width": 1280,
+          "height": 900,
+          "bytes": 112884
+        }
+      ],
+      "bytes": 1462889,
+      "capturedAt": "2026-11-13T18:00:54.911Z"
+    },
+    {
+      "project": "kenmar",
+      "device": "tablet",
+      "label": "Tablet",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "pageTitle": "Kenmar Corporation | Automotive Business Development",
+      "pageHeight": 10028,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/kenmar/tablet/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 834,
+          "height": 1112,
+          "bytes": 133519
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/02.jpg",
+          "scrollY": 962,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 118106
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/03.jpg",
+          "scrollY": 1924,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 126027
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/04.jpg",
+          "scrollY": 2886,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 127659
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/05.jpg",
+          "scrollY": 3848,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 88151
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/06.jpg",
+          "scrollY": 4810,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 78011
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/07.jpg",
+          "scrollY": 5772,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 123491
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/08.jpg",
+          "scrollY": 6734,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 93573
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/09.jpg",
+          "scrollY": 7696,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 95298
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/10.jpg",
+          "scrollY": 8658,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 108282
+        },
+        {
+          "path": "assets/project-explorer/kenmar/tablet/11.jpg",
+          "scrollY": 8916,
+          "cropTop": 854,
+          "width": 834,
+          "height": 1112,
+          "bytes": 95050
+        }
+      ],
+      "bytes": 1187167,
+      "capturedAt": "2026-11-13T18:01:06.740Z"
+    },
+    {
+      "project": "kenmar",
+      "device": "mobile",
+      "label": "Mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pageTitle": "Kenmar Corporation | Automotive Business Development",
+      "pageHeight": 13714,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/kenmar/mobile/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 390,
+          "height": 844,
+          "bytes": 57426
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/02.jpg",
+          "scrollY": 664,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 48766
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/03.jpg",
+          "scrollY": 1328,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 53169
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/04.jpg",
+          "scrollY": 1992,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 49549
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/05.jpg",
+          "scrollY": 2656,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 50306
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/06.jpg",
+          "scrollY": 3320,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 41644
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/07.jpg",
+          "scrollY": 3984,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 49812
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/08.jpg",
+          "scrollY": 4648,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 48576
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/09.jpg",
+          "scrollY": 5312,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 33533
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/10.jpg",
+          "scrollY": 5976,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 33836
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/11.jpg",
+          "scrollY": 6640,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 53834
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/12.jpg",
+          "scrollY": 7304,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 43047
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/13.jpg",
+          "scrollY": 7968,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 52139
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/14.jpg",
+          "scrollY": 8632,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 51097
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/15.jpg",
+          "scrollY": 9296,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 41300
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/16.jpg",
+          "scrollY": 9960,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 36977
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/17.jpg",
+          "scrollY": 10624,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 43255
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/18.jpg",
+          "scrollY": 11288,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 47078
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/19.jpg",
+          "scrollY": 11952,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 44909
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/20.jpg",
+          "scrollY": 12616,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 25328
+        },
+        {
+          "path": "assets/project-explorer/kenmar/mobile/21.jpg",
+          "scrollY": 12870,
+          "cropTop": 590,
+          "width": 390,
+          "height": 844,
+          "bytes": 24775
+        }
+      ],
+      "bytes": 930356,
+      "capturedAt": "2026-11-13T18:01:25.804Z"
+    },
+    {
+      "project": "genieum",
+      "device": "desktop",
+      "label": "Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "pageTitle": "Simply Better Trade Credit | Genieum",
+      "pageHeight": 4595,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/genieum/desktop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1440,
+          "height": 960,
+          "bytes": 95481
+        },
+        {
+          "path": "assets/project-explorer/genieum/desktop/02.jpg",
+          "scrollY": 840,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 75979
+        },
+        {
+          "path": "assets/project-explorer/genieum/desktop/03.jpg",
+          "scrollY": 1680,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 100155
+        },
+        {
+          "path": "assets/project-explorer/genieum/desktop/04.jpg",
+          "scrollY": 2520,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 70989
+        },
+        {
+          "path": "assets/project-explorer/genieum/desktop/05.jpg",
+          "scrollY": 3360,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 74071
+        },
+        {
+          "path": "assets/project-explorer/genieum/desktop/06.jpg",
+          "scrollY": 3635,
+          "cropTop": 685,
+          "width": 1440,
+          "height": 960,
+          "bytes": 83554
+        }
+      ],
+      "bytes": 500229,
+      "capturedAt": "2026-11-13T18:01:32.031Z"
+    },
+    {
+      "project": "genieum",
+      "device": "laptop",
+      "label": "Laptop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "pageTitle": "Simply Better Trade Credit | Genieum",
+      "pageHeight": 4595,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/genieum/laptop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1280,
+          "height": 900,
+          "bytes": 86715
+        },
+        {
+          "path": "assets/project-explorer/genieum/laptop/02.jpg",
+          "scrollY": 780,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 72117
+        },
+        {
+          "path": "assets/project-explorer/genieum/laptop/03.jpg",
+          "scrollY": 1560,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 81391
+        },
+        {
+          "path": "assets/project-explorer/genieum/laptop/04.jpg",
+          "scrollY": 2340,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 94411
+        },
+        {
+          "path": "assets/project-explorer/genieum/laptop/05.jpg",
+          "scrollY": 3120,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 74323
+        },
+        {
+          "path": "assets/project-explorer/genieum/laptop/06.jpg",
+          "scrollY": 3695,
+          "cropTop": 325,
+          "width": 1280,
+          "height": 900,
+          "bytes": 76486
+        }
+      ],
+      "bytes": 485443,
+      "capturedAt": "2026-11-13T18:01:38.162Z"
+    },
+    {
+      "project": "genieum",
+      "device": "tablet",
+      "label": "Tablet",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "pageTitle": "Simply Better Trade Credit | Genieum",
+      "pageHeight": 4908,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/genieum/tablet/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 834,
+          "height": 1112,
+          "bytes": 76054
+        },
+        {
+          "path": "assets/project-explorer/genieum/tablet/02.jpg",
+          "scrollY": 962,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 86191
+        },
+        {
+          "path": "assets/project-explorer/genieum/tablet/03.jpg",
+          "scrollY": 1924,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 72745
+        },
+        {
+          "path": "assets/project-explorer/genieum/tablet/04.jpg",
+          "scrollY": 2886,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 56242
+        },
+        {
+          "path": "assets/project-explorer/genieum/tablet/05.jpg",
+          "scrollY": 3796,
+          "cropTop": 202,
+          "width": 834,
+          "height": 1112,
+          "bytes": 33730
+        }
+      ],
+      "bytes": 324962,
+      "capturedAt": "2026-11-13T18:01:44.166Z"
+    },
+    {
+      "project": "genieum",
+      "device": "mobile",
+      "label": "Mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pageTitle": "Simply Better Trade Credit | Genieum",
+      "pageHeight": 6684,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/genieum/mobile/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 390,
+          "height": 844,
+          "bytes": 34251
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/02.jpg",
+          "scrollY": 664,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 33378
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/03.jpg",
+          "scrollY": 1328,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 14750
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/04.jpg",
+          "scrollY": 1992,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 38056
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/05.jpg",
+          "scrollY": 2656,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 45376
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/06.jpg",
+          "scrollY": 3320,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 30227
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/07.jpg",
+          "scrollY": 3984,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 21299
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/08.jpg",
+          "scrollY": 4648,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 26343
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/09.jpg",
+          "scrollY": 5312,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 32031
+        },
+        {
+          "path": "assets/project-explorer/genieum/mobile/10.jpg",
+          "scrollY": 5840,
+          "cropTop": 316,
+          "width": 390,
+          "height": 844,
+          "bytes": 20815
+        }
+      ],
+      "bytes": 296526,
+      "capturedAt": "2026-11-13T18:01:53.301Z"
+    },
+    {
+      "project": "jbtb",
+      "device": "desktop",
+      "label": "Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "pageTitle": "Private Lending Education | Just Be The Bank",
+      "pageHeight": 7418,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/jbtb/desktop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1440,
+          "height": 960,
+          "bytes": 133205
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/02.jpg",
+          "scrollY": 840,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 112817
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/03.jpg",
+          "scrollY": 1680,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 134099
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/04.jpg",
+          "scrollY": 2520,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 183606
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/05.jpg",
+          "scrollY": 3360,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 117448
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/06.jpg",
+          "scrollY": 4200,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 146850
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/07.jpg",
+          "scrollY": 5040,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 136642
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/08.jpg",
+          "scrollY": 5880,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 118553
+        },
+        {
+          "path": "assets/project-explorer/jbtb/desktop/09.jpg",
+          "scrollY": 6458,
+          "cropTop": 382,
+          "width": 1440,
+          "height": 960,
+          "bytes": 123281
+        }
+      ],
+      "bytes": 1206501,
+      "capturedAt": "2026-11-13T18:02:14.046Z"
+    },
+    {
+      "project": "jbtb",
+      "device": "laptop",
+      "label": "Laptop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "pageTitle": "Private Lending Education | Just Be The Bank",
+      "pageHeight": 7464,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/jbtb/laptop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1280,
+          "height": 900,
+          "bytes": 114354
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/02.jpg",
+          "scrollY": 780,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 96610
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/03.jpg",
+          "scrollY": 1560,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 127826
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/04.jpg",
+          "scrollY": 2340,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 128809
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/05.jpg",
+          "scrollY": 3120,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 137201
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/06.jpg",
+          "scrollY": 3900,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 140697
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/07.jpg",
+          "scrollY": 4680,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 94033
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/08.jpg",
+          "scrollY": 5460,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 114469
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/09.jpg",
+          "scrollY": 6240,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 129486
+        },
+        {
+          "path": "assets/project-explorer/jbtb/laptop/10.jpg",
+          "scrollY": 6564,
+          "cropTop": 576,
+          "width": 1280,
+          "height": 900,
+          "bytes": 104446
+        }
+      ],
+      "bytes": 1187931,
+      "capturedAt": "2026-11-13T18:02:34.437Z"
+    },
+    {
+      "project": "jbtb",
+      "device": "tablet",
+      "label": "Tablet",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "pageTitle": "Private Lending Education | Just Be The Bank",
+      "pageHeight": 8689,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/jbtb/tablet/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 834,
+          "height": 1112,
+          "bytes": 88281
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/02.jpg",
+          "scrollY": 962,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 115984
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/03.jpg",
+          "scrollY": 1924,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 106098
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/04.jpg",
+          "scrollY": 2886,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 109778
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/05.jpg",
+          "scrollY": 3848,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 88431
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/06.jpg",
+          "scrollY": 4810,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 99803
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/07.jpg",
+          "scrollY": 5772,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 106998
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/08.jpg",
+          "scrollY": 6734,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 88606
+        },
+        {
+          "path": "assets/project-explorer/jbtb/tablet/09.jpg",
+          "scrollY": 7577,
+          "cropTop": 269,
+          "width": 834,
+          "height": 1112,
+          "bytes": 87936
+        }
+      ],
+      "bytes": 891915,
+      "capturedAt": "2026-11-13T18:02:55.525Z"
+    },
+    {
+      "project": "jbtb",
+      "device": "mobile",
+      "label": "Mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pageTitle": "Private Lending Education | Just Be The Bank",
+      "pageHeight": 10457,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/jbtb/mobile/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 390,
+          "height": 844,
+          "bytes": 48867
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/02.jpg",
+          "scrollY": 664,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 34246
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/03.jpg",
+          "scrollY": 1328,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 46697
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/04.jpg",
+          "scrollY": 1992,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 36420
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/05.jpg",
+          "scrollY": 2656,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 36370
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/06.jpg",
+          "scrollY": 3320,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 39632
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/07.jpg",
+          "scrollY": 3984,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 48473
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/08.jpg",
+          "scrollY": 4648,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 41548
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/09.jpg",
+          "scrollY": 5312,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 36685
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/10.jpg",
+          "scrollY": 5976,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 50350
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/11.jpg",
+          "scrollY": 6640,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 40930
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/12.jpg",
+          "scrollY": 7304,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 43847
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/13.jpg",
+          "scrollY": 7968,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 53054
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/14.jpg",
+          "scrollY": 8632,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 41476
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/15.jpg",
+          "scrollY": 9296,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 47979
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/16.jpg",
+          "scrollY": 9960,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 37693
+        },
+        {
+          "path": "assets/project-explorer/jbtb/mobile/17.jpg",
+          "scrollY": 9974,
+          "cropTop": 830,
+          "width": 390,
+          "height": 844,
+          "bytes": 36445
+        }
+      ],
+      "bytes": 720712,
+      "capturedAt": "2026-11-13T18:03:17.046Z"
+    },
+    {
+      "project": "parts",
+      "device": "desktop",
+      "label": "Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "pageTitle": "Online CNC Machine Shop | Custom CNC Machining | PartsBadger",
+      "pageHeight": 6453,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/parts/desktop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1440,
+          "height": 960,
+          "bytes": 171864
+        },
+        {
+          "path": "assets/project-explorer/parts/desktop/02.jpg",
+          "scrollY": 840,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 147960
+        },
+        {
+          "path": "assets/project-explorer/parts/desktop/03.jpg",
+          "scrollY": 1680,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 125723
+        },
+        {
+          "path": "assets/project-explorer/parts/desktop/04.jpg",
+          "scrollY": 2520,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 147052
+        },
+        {
+          "path": "assets/project-explorer/parts/desktop/05.jpg",
+          "scrollY": 3360,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 125232
+        },
+        {
+          "path": "assets/project-explorer/parts/desktop/06.jpg",
+          "scrollY": 4200,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 94365
+        },
+        {
+          "path": "assets/project-explorer/parts/desktop/07.jpg",
+          "scrollY": 5040,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 80767
+        },
+        {
+          "path": "assets/project-explorer/parts/desktop/08.jpg",
+          "scrollY": 5664,
+          "cropTop": 336,
+          "width": 1440,
+          "height": 960,
+          "bytes": 82673
+        }
+      ],
+      "bytes": 975636,
+      "capturedAt": "2026-11-13T18:03:27.436Z"
+    },
+    {
+      "project": "parts",
+      "device": "laptop",
+      "label": "Laptop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "pageTitle": "Online CNC Machine Shop | Custom CNC Machining | PartsBadger",
+      "pageHeight": 6781,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/parts/laptop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1280,
+          "height": 900,
+          "bytes": 147746
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/02.jpg",
+          "scrollY": 780,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 136639
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/03.jpg",
+          "scrollY": 1560,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 99144
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/04.jpg",
+          "scrollY": 2340,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 128435
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/05.jpg",
+          "scrollY": 3120,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 129457
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/06.jpg",
+          "scrollY": 3900,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 97742
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/07.jpg",
+          "scrollY": 4680,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 90766
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/08.jpg",
+          "scrollY": 5460,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 63933
+        },
+        {
+          "path": "assets/project-explorer/parts/laptop/09.jpg",
+          "scrollY": 5940,
+          "cropTop": 420,
+          "width": 1280,
+          "height": 900,
+          "bytes": 77660
+        }
+      ],
+      "bytes": 971522,
+      "capturedAt": "2026-11-13T18:03:37.100Z"
+    },
+    {
+      "project": "parts",
+      "device": "tablet",
+      "label": "Tablet",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "pageTitle": "Online CNC Machine Shop | Custom CNC Machining | PartsBadger",
+      "pageHeight": 8344,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/parts/tablet/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 834,
+          "height": 1112,
+          "bytes": 117937
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/02.jpg",
+          "scrollY": 962,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 111125
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/03.jpg",
+          "scrollY": 1924,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 89826
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/04.jpg",
+          "scrollY": 2886,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 99517
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/05.jpg",
+          "scrollY": 3848,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 99868
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/06.jpg",
+          "scrollY": 4810,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 95381
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/07.jpg",
+          "scrollY": 5772,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 88253
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/08.jpg",
+          "scrollY": 6734,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 60651
+        },
+        {
+          "path": "assets/project-explorer/parts/tablet/09.jpg",
+          "scrollY": 7232,
+          "cropTop": 614,
+          "width": 834,
+          "height": 1112,
+          "bytes": 64710
+        }
+      ],
+      "bytes": 827268,
+      "capturedAt": "2026-11-13T18:03:46.775Z"
+    },
+    {
+      "project": "parts",
+      "device": "mobile",
+      "label": "Mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pageTitle": "Online CNC Machine Shop | Custom CNC Machining | PartsBadger",
+      "pageHeight": 12900,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/parts/mobile/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 390,
+          "height": 844,
+          "bytes": 42037
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/02.jpg",
+          "scrollY": 664,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 39869
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/03.jpg",
+          "scrollY": 1328,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 48228
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/04.jpg",
+          "scrollY": 1992,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 58370
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/05.jpg",
+          "scrollY": 2656,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 44802
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/06.jpg",
+          "scrollY": 3320,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 40789
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/07.jpg",
+          "scrollY": 3984,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 41734
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/08.jpg",
+          "scrollY": 4648,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 54978
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/09.jpg",
+          "scrollY": 5312,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 40314
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/10.jpg",
+          "scrollY": 5976,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 55714
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/11.jpg",
+          "scrollY": 6640,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 32080
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/12.jpg",
+          "scrollY": 7304,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 48664
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/13.jpg",
+          "scrollY": 7968,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 43401
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/14.jpg",
+          "scrollY": 8632,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 39675
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/15.jpg",
+          "scrollY": 9296,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 38308
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/16.jpg",
+          "scrollY": 9960,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 41964
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/17.jpg",
+          "scrollY": 10624,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 36022
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/18.jpg",
+          "scrollY": 11288,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 26372
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/19.jpg",
+          "scrollY": 11952,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 29317
+        },
+        {
+          "path": "assets/project-explorer/parts/mobile/20.jpg",
+          "scrollY": 12569,
+          "cropTop": 227,
+          "width": 390,
+          "height": 844,
+          "bytes": 31819
+        }
+      ],
+      "bytes": 834457,
+      "capturedAt": "2026-11-13T18:04:04.711Z"
+    },
+    {
+      "project": "camden",
+      "device": "desktop",
+      "label": "Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "pageTitle": "Dental Implants Preston | Implant Dentist in Lancashire",
+      "pageHeight": 9932,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/camden/desktop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1440,
+          "height": 960,
+          "bytes": 89889
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/02.jpg",
+          "scrollY": 840,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 98457
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/03.jpg",
+          "scrollY": 1680,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 85436
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/04.jpg",
+          "scrollY": 2520,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 111457
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/05.jpg",
+          "scrollY": 3360,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 95135
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/06.jpg",
+          "scrollY": 4200,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 71688
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/07.jpg",
+          "scrollY": 5040,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 80760
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/08.jpg",
+          "scrollY": 5880,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 97525
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/09.jpg",
+          "scrollY": 6720,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 93090
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/10.jpg",
+          "scrollY": 7560,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 88167
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/11.jpg",
+          "scrollY": 8400,
+          "cropTop": 120,
+          "width": 1440,
+          "height": 960,
+          "bytes": 145053
+        },
+        {
+          "path": "assets/project-explorer/camden/desktop/12.jpg",
+          "scrollY": 8972,
+          "cropTop": 388,
+          "width": 1440,
+          "height": 960,
+          "bytes": 144072
+        }
+      ],
+      "bytes": 1200729,
+      "capturedAt": "2026-11-13T18:04:17.235Z"
+    },
+    {
+      "project": "camden",
+      "device": "laptop",
+      "label": "Laptop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "pageTitle": "Dental Implants Preston | Implant Dentist in Lancashire",
+      "pageHeight": 8812,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/camden/laptop/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 1280,
+          "height": 900,
+          "bytes": 92884
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/02.jpg",
+          "scrollY": 780,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 115458
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/03.jpg",
+          "scrollY": 1560,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 113071
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/04.jpg",
+          "scrollY": 2340,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 106938
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/05.jpg",
+          "scrollY": 3120,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 65619
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/06.jpg",
+          "scrollY": 3900,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 96174
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/07.jpg",
+          "scrollY": 4680,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 88570
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/08.jpg",
+          "scrollY": 5460,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 96342
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/09.jpg",
+          "scrollY": 6240,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 73254
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/10.jpg",
+          "scrollY": 7020,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 106889
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/11.jpg",
+          "scrollY": 7800,
+          "cropTop": 120,
+          "width": 1280,
+          "height": 900,
+          "bytes": 129459
+        },
+        {
+          "path": "assets/project-explorer/camden/laptop/12.jpg",
+          "scrollY": 7912,
+          "cropTop": 788,
+          "width": 1280,
+          "height": 900,
+          "bytes": 124595
+        }
+      ],
+      "bytes": 1209253,
+      "capturedAt": "2026-11-13T18:04:28.697Z"
+    },
+    {
+      "project": "camden",
+      "device": "tablet",
+      "label": "Tablet",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "pageTitle": "Dental Implants Preston | Implant Dentist in Lancashire",
+      "pageHeight": 9810,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/camden/tablet/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 834,
+          "height": 1112,
+          "bytes": 88485
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/02.jpg",
+          "scrollY": 962,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 109642
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/03.jpg",
+          "scrollY": 1924,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 96389
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/04.jpg",
+          "scrollY": 2886,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 86193
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/05.jpg",
+          "scrollY": 3848,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 69345
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/06.jpg",
+          "scrollY": 4810,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 64405
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/07.jpg",
+          "scrollY": 5772,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 85467
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/08.jpg",
+          "scrollY": 6734,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 77752
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/09.jpg",
+          "scrollY": 7696,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 91684
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/10.jpg",
+          "scrollY": 8658,
+          "cropTop": 150,
+          "width": 834,
+          "height": 1112,
+          "bytes": 107558
+        },
+        {
+          "path": "assets/project-explorer/camden/tablet/11.jpg",
+          "scrollY": 8698,
+          "cropTop": 1072,
+          "width": 834,
+          "height": 1112,
+          "bytes": 106337
+        }
+      ],
+      "bytes": 983257,
+      "capturedAt": "2026-11-13T18:04:39.557Z"
+    },
+    {
+      "project": "camden",
+      "device": "mobile",
+      "label": "Mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pageTitle": "Dental Implants Preston | Implant Dentist in Lancashire",
+      "pageHeight": 13047,
+      "status": "captured",
+      "segments": [
+        {
+          "path": "assets/project-explorer/camden/mobile/01.jpg",
+          "scrollY": 0,
+          "cropTop": 0,
+          "width": 390,
+          "height": 844,
+          "bytes": 44265
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/02.jpg",
+          "scrollY": 664,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 39811
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/03.jpg",
+          "scrollY": 1328,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 54827
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/04.jpg",
+          "scrollY": 1992,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 30786
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/05.jpg",
+          "scrollY": 2656,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 48723
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/06.jpg",
+          "scrollY": 3320,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 44527
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/07.jpg",
+          "scrollY": 3984,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 43695
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/08.jpg",
+          "scrollY": 4648,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 35855
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/09.jpg",
+          "scrollY": 5312,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 47314
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/10.jpg",
+          "scrollY": 5976,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 26489
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/11.jpg",
+          "scrollY": 6640,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 34359
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/12.jpg",
+          "scrollY": 7304,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 37420
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/13.jpg",
+          "scrollY": 7968,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 34018
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/14.jpg",
+          "scrollY": 8632,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 35987
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/15.jpg",
+          "scrollY": 9296,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 32285
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/16.jpg",
+          "scrollY": 9960,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 39741
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/17.jpg",
+          "scrollY": 10624,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 36744
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/18.jpg",
+          "scrollY": 11288,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 37272
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/19.jpg",
+          "scrollY": 11952,
+          "cropTop": 180,
+          "width": 390,
+          "height": 844,
+          "bytes": 46080
+        },
+        {
+          "path": "assets/project-explorer/camden/mobile/20.jpg",
+          "scrollY": 12203,
+          "cropTop": 593,
+          "width": 390,
+          "height": 844,
+          "bytes": 43603
+        }
+      ],
+      "bytes": 793801,
+      "capturedAt": "2026-11-13T18:04:56.806Z"
+    }
+  ]
+}
